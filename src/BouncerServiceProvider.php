@@ -139,4 +139,14 @@ class BouncerServiceProvider extends ServiceProvider
             'users' => Models::user()->getTable(),
         ]);
     }
+    
+    /**
+     * Get a list of files that should be compiled for this package.
+     *
+     * @return array
+     */
+    public static function compiles()
+    {
+        return [];
+    }
 }
