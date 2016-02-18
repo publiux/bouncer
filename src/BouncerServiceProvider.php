@@ -147,6 +147,14 @@ class BouncerServiceProvider extends ServiceProvider
      */
     public static function compiles()
     {
-        return [];
+        return [
+            './BouncerServiceProvider.php',
+            './CachedClipboard.php',
+            './Clipboard.php',
+            './Database/Models.php',
+            './Database/HasRolesAndAbilities.php',
+            './Database/HasRoles.php',
+            './Database/HasAbilities.php'
+        ];
     }
 }
