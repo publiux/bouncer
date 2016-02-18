@@ -148,13 +148,13 @@ class BouncerServiceProvider extends ServiceProvider
     public static function compiles()
     {
         return [
-            './BouncerServiceProvider.php',
-            './CachedClipboard.php',
-            './Clipboard.php',
-            './Database/Models.php',
-            './Database/HasRolesAndAbilities.php',
-            './Database/HasRoles.php',
-            './Database/HasAbilities.php'
+            'BouncerServiceProvider.php',
+            'CachedClipboard.php',
+            'Clipboard.php',
+            'Database/Models.php',
+            'Database/HasRolesAndAbilities.php',
+            'Database/HasRoles.php',
+            'Database/HasAbilities.php'
         ];
     }
 }
