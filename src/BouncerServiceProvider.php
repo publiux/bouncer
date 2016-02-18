@@ -150,11 +150,7 @@ class BouncerServiceProvider extends ServiceProvider
         return [
             'BouncerServiceProvider.php',
             'CachedClipboard.php',
-            'Clipboard.php',
-            'Database/Models.php',
-            'Database/HasRolesAndAbilities.php',
-            'Database/HasRoles.php',
-            'Database/HasAbilities.php'
+            'Clipboard.php'
         ];
     }
 }
